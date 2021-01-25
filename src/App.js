@@ -15,7 +15,7 @@ class App extends Component {
     isCorrect && this.setState({ counter: this.state.counter + 1 });
     this.setState({ qNumber: this.state.qNumber + 1 });
   };
-  render() {
+  render(hell) {
     const { questions, counter, qNumber } = this.state;
     return (
       <div className="app">
